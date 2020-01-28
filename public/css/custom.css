@@ -1,0 +1,123 @@
+.dropdown{
+    border-radius:0;
+    border:0;
+}
+.dropdown-menu{
+    background: #10263d;
+    border:0;
+    top:80%;
+    border-radius:0px 0px 5px 5px;
+}
+.dropdown-item:hover{
+    background:#0085a0;
+    color:#fff;
+}
+
+.dropdown-menu a{
+    color:#fff;
+}
+
+.navbar .nav-item .nav-link{
+    color:#eee !important;
+
+}
+.navbar .nav-item .nav-link:hover .navbar .nav-item .nav-link{
+    color:red !important;
+}
+
+.banner{
+    height: 11vh;
+}
+@media (max-width: 991.98px) {
+    #mainNav .navbar-nav>li.nav-item>a {
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: black;
+    }
+}
+
+.img-fluid .header{
+    width: 100%;
+    height: auto;
+}
+
+.c-tom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-thumbnail {
+    margin-top: 36px;
+}
+
+.modal-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 4.5rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+.modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: center;
+    padding: 1rem;
+    border-top: 3px solid #dee2e6;
+    border-bottom-right-radius: .3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+    pointer-events: auto;
+    background-color: #f8f9fa;
+    background-clip: padding-box;
+    border: 0px solid rgba(0,0,0,.2);
+    border-radius: 1.3rem;
+    outline: 0;
+    transform: translateX(50%);
+}
+
+.text-lg-left {
+    text-align: center!important;
+}
+
+.categoryHover{
+    cursor: pointer;
+}
+
+
+/*nenqpenvqpnevpi2knepvkn2*/
+
+.img-custom{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    object-fit: contain;
+}
+.box-custom{
+    width: 250px;
+}
+.box-large-custom{
+    height: 300px;
+}
+.box-small-custom{
+    height: 160px;
+}
